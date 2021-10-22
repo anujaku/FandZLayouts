@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A website for brief history of internet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:italic&effect=shadow-multiple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond:ital,wght@1,300|Yaldevi:Regular+400"
+          rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title style="font-family: Cambria">Internet Origin</title>
+    <style>
+        body {
+            background-color: none;
+            padding-top: 0px;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin: fill;
+            image-resolution: from-image;
+            margin-bottom: 0px;
+        }
+        h1 {
+            font-family: "Arial Rounded MT Bold";
+            font-size: 200%;
+            color: darkgreen;
+            text-align: center;
+            /*text-decoration-style: solid;*/
+            margin-bottom: 0;
+            max-width: 100%;
+        }
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: darkslategray;
+            /*display: flex;*/
+        }
+        ul.topnav li {float: left;}
+
+        ul.topnav li a {
+            display: block;
+            padding-top: 30px;
+            color: black;
+            text-align: center;
+            width: 150px;
+            height: 70px;
+            text-decoration: none;
+            font-family: Yaldevi;
+        }
+
+        ul.topnav li img {
+            display: block;
+            padding: 0px;
+            height: 100px;
+            width: 150px;
+        }
+
+        ul.topnav li a:hover:not(.active) {background-color: antiquewhite}
+
+        /*ul.topnav li a:visited {background-color: #e17055;}*/
+
+        ul.topnav li a.active {background-color: darkgreen;}
+
+        ul.topnav li.right {float: right;}
+
+        a:link {
+            color: Blue;
+            background-color: transparent;
+            text-decoration: none;
+            target: window;
+        }
+        a:visited {
+            color: purple;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: green;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        footer{
+            background-color: darkslategrey;
+            height: 5%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            bottom: 0;
+            position: center;
+            display: inline-block;
+            text-align: justify;
+            color: white;
+        }
+        .body-content {
+            min-height: available;
+            display: contents;
+            width: border-box;
+        }
+        .t-align-center {
+            text-align: center;
+        }
+        .page-section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media (max-width: 800px) {
+            .page-section {
+                flex-direction: column;
+            }
+        }
+        .grid-left {
+            padding: 0;
+            text-align: left;
+            font-family: "Arial Rounded MT Bold";
+            font-size: 20px;
+            color: black;
+            flex: 70% !important;
+        }
+
+        .grid-right {
+            text-align: center;
+            flex: 30%;
+        }
+
+        .grid-img {
+            display: inline-block;
+            border: 1px solid black;
+            max-height: 350px;
+            width: auto;
+            max-width: 450px;
+        }
+
+        .grid-container-bw {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: repeat(1, 40vw)
+        }
+
+        .grid-container-3 {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: repeat(3, 40vw)
+        }
+
+        @media screen and (max-width: 600px) {
+            ul.topnav li.right,
+            ul.topnav li {float: none;}
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        @media (max-width: 700px) {
+            .row, .navbar {
+                flex-direction: column;
+            }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <div>
+        <ul class="topnav">
+            <li class="left"><img src="https://opportunitydesk.org/wp-content/uploads/2020/06/Internet-Society-IGF-Youth-Ambassadors-Program-2020-1024x550.jpg" alt="World Wide Web"></li>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="originOfTheInternet.html">Origins Of The Internet</a></li>
+            <li><a href="link2.html">Link2</a></li>
+            <li><a href="link3.html">Link3</a></li>
+            <li><a href="link4.html">Link4</a></li>
+            <li><a href="link5.html">Link5</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="body-content">
+    <h1 style="text-align: center">Origins of the Internet</h1>
+
+    <div class="grid-container-4">
+        <div class="page-section">
+            <div class="grid-left">
+                <p style="font-family: Cambria">The first recorded description of the social interactions that could be enabled through networking was a series
+                    of memos written by J.C.R. Licklider of MIT in August 1962 discussing his “Galactic Network” concept.
+                    He envisioned a globally interconnected set of computers through which everyone could quickly access data and
+                    programs from any site. In spirit, the concept was very much like the Internet of today. Licklider was the first
+                    head of the computer research program at DARPA,4 starting in October 1962. While at DARPA he convinced his successors
+                    at DARPA, Ivan Sutherland, Bob Taylor, and MIT researcher Lawrence G. Roberts, of the importance of this networking concept.</p>
+                <p style="font-family: Cambria">Leonard Kleinrock at MIT published the first paper on packet switching theory in July 1961 and the first book on the subject in 1964.
+                    Kleinrock convinced Roberts of the theoretical feasibility of communications using packets rather than circuits, which was a major
+                    step along the path towards computer networking. The other key step was to make the computers talk together. To explore this, in 1965
+                    working with Thomas Merrill, Roberts connected the TX-2 computer in Mass. to the Q-32 in California with a low speed dial-up
+                    telephone line creating the first (however small) wide-area computer network ever built. The result of this experiment was the
+                    realization that the time-shared computers could work well together, running programs and retrieving data as necessary on the
+                    remote machine, but that the circuit switched telephone system was totally inadequate for the job. Kleinrock’s conviction of the
+                    need for packet switching was confirmed.</p>
+            </div>
+            <div class="grid-right">
+                <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/11364812/galactic.jpg" alt="Galactic Network" class="grid-img">
+            </div>
+        </div>
+    </div>
+    <div class="page-section">
+        <div class="grid-left">
+            <p style="font-family: Cambria">In late 1966 Roberts went to DARPA to develop the computer network concept and quickly put together his plan for the “ARPANET”,
+                publishing it in 1967. At the conference where he presented the paper, there was also a paper on a packet network concept from
+                the UK by Donald Davies and Roger Scantlebury of NPL. Scantlebury told Roberts about the NPL work as well as that of Paul Baran
+                and others at RAND. The RAND group had written a paper on packet switching networks for secure voice in the military in 1964.
+                It happened that the work at MIT (1961-1967), at RAND (1962-1965), and at NPL (1964-1967) had all proceeded in parallel without
+                any of the researchers knowing about the other work. The word “packet” was adopted from the work at NPL and the proposed line speed
+                to be used in the ARPANET design was upgraded from 2.4 kbps to 50 kbps.</p>
+        </div>
+        <div class="grid-right">
+            <img src="https://3.bp.blogspot.com/-TNgktleXezU/WgjG5JEsjXI/AAAAAAAAAAs/BIsC9LcAPsw9d5I0OhrMnfVLtRYE8AhbACLcBGAs/s1600/Arpanet_1970.png" alt="ARPANET" class="grid-img">
+        </div>
+    </div>
+    <div class="page-section">
+        <div class="grid-left" style="text-align: left">
+            <p style="font-family: Cambria">In August 1968, after Roberts and the DARPA funded community had refined the overall structure and specifications for the ARPANET,
+                an RFQ was released by DARPA for the development of one of the key components, the packet switches called Interface Message Processors
+                (IMP’s). The RFQ was won in December 1968 by a group headed by Frank Heart at Bolt Beranek and Newman (BBN). As the BBN team worked
+                on the IMP’s with Bob Kahn playing a major role in the overall ARPANET architectural design, the network topology and economics
+                were designed and optimized by Roberts working with Howard Frank and his team at Network Analysis Corporation, and the network
+                measurement system was prepared by Kleinrock’s team at UCLA.</p>
+            <p style="font-family: Cambria">Due to Kleinrock’s early development of packet switching theory and his focus on analysis, design and measurement, his Network
+                Measurement Center at UCLA was selected to be the first node on the ARPANET. All this came together in September 1969 when BBN installed
+                the first IMP at UCLA and the first host computer was connected. Doug Engelbart’s project on “Augmentation of Human Intellect”
+                (which included NLS, an early hypertext system) at Stanford Research Institute (SRI) provided a second node. SRI supported the Network
+                Information Center, led by Elizabeth (Jake) Feinler and including functions such as maintaining tables of host name to address mapping
+                as well as a directory of the RFC’s.</p>
+            <p style="font-family: Cambria">One month later, when SRI was connected to the ARPANET, the first host-to-host message was sent from Kleinrock’s laboratory to SRI.
+                Two more nodes were added at UC Santa Barbara and University of Utah. These last two nodes incorporated application visualization
+                projects, with Glen Culler and Burton Fried at UCSB investigating methods for display of mathematical functions using storage
+                displays to deal with the problem of refresh over the net, and Robert Taylor and Ivan Sutherland at Utah investigating methods of
+                3-D representations over the net. Thus, by the end of 1969, four host computers were connected together into the initial ARPANET,
+                and the budding Internet was off the ground. Even at this early stage, it should be noted that the networking research incorporated
+                both work on the underlying network and work on how to utilize the network. This tradition continues to this day.</p>
+            <p style="font-family: Cambria">Computers were added quickly to the ARPANET during the following years, and work proceeded on completing a functionally complete
+                Host-to-Host protocol and other network software. In December 1970 the Network Working Group (NWG) working under S. Crocker finished
+                the initial ARPANET Host-to-Host protocol, called the Network Control Protocol (NCP). As the ARPANET sites completed implementing
+                NCP during the period 1971-1972, the network users finally could begin to develop applications.</p>
+        </div>
+    </div>
+    <div class="page-section">
+        <div class="grid-left">
+            <p style="font-family: Cambria">In October 1972, Kahn organized a large, very successful demonstration of the ARPANET at the International Computer Communication
+                Conference (ICCC). This was the first public demonstration of this new network technology to the public. It was also in 1972 that
+                the initial “hot” application, electronic mail, was introduced. In March Ray Tomlinson at BBN wrote the basic email message send and
+                read software, motivated by the need of the ARPANET developers for an easy coordination mechanism. In July, Roberts expanded its
+                utility by writing the first email utility program to list, selectively read, file, forward, and respond to messages.
+                From there email took off as the largest network application for over a decade. This was a harbinger of the kind of activity
+                we see on the World Wide Web today, namely, the enormous growth of all kinds of “people-to-people” traffic.</p>
+        </div>
+        <div class="grid-right">
+            <img src="https://www.acbanet.org/wp-content/uploads/2014/03/istock_000013614379large.jpg" alt="Electronic Mail" class="grid-img">
+        </div>
+    </div>
+</div>
+</div>
+<footer class="footer" >MarkAnu &#169;</footer>
+</body>
+</html>
